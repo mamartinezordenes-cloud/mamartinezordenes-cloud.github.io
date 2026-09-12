@@ -1,0 +1,118 @@
+/* =========================
+   BASE GENERAL
+========================= */
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #e2e8f0;
+}
+
+/* =========================
+   CONTENEDOR GENERAL
+========================= */
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* =========================
+   TARJETAS (CARDS)
+========================= */
+
+.card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+/* =========================
+   BOTONES
+========================= */
+
+button {
+    background: linear-gradient(135deg, #38bdf8, #2563eb);
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* =========================
+   INPUTS
+========================= */
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+/* =========================
+   TEXTOS
+========================= */
+
+h1, h2, h3 {
+    color: #f1f5f9;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+* {
+    color: #e2e8f0;
+}
+
+/* Mejora lectura en cards y formularios */
+.card, .container {
+    color: #e2e8f0;
+}
+
+/* Inputs con texto visible */
+input {
+    color: #0f172a;
+}
+
+/* Placeholder más suave */
+input::placeholder {
+    color: #64748b;
+}
+
+/* Títulos más visibles */
+h1, h2, h3, h4, h5 {
+    color: #f8fafc;
+}

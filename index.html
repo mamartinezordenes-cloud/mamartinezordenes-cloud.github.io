@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>María Vanesa Martínez Órdenes · Desarrolladora Full Stack Java</title>
+<meta name="description" content="Portafolio de María Vanesa Martínez Órdenes, desarrolladora de aplicaciones Full Stack Java Trainee.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="blob-cursor" aria-hidden="true"></div>
+
+<header class="nav-wrap">
+  <nav class="nav-pill" aria-label="Navegación principal">
+    <a href="#inicio" class="nav-logo">MV<span>.</span></a>
+    <div class="nav-links">
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <a href="assets/CV-Maria-Martinez.pdf" class="nav-cta">Mi CV</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-blob hero-blob--a" aria-hidden="true"></div>
+    <div class="hero-blob hero-blob--b" aria-hidden="true"></div>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="hero-kicker">Hola, soy</p>
+        <h1 class="hero-name">
+          <span class="reveal" style="--d:0">María</span>
+          <span class="reveal" style="--d:1">Vanesa</span>
+          <span class="reveal hero-name--accent" style="--d:2">Martínez Órdenes</span>
+        </h1>
+        <p class="hero-role reveal" style="--d:3">Desarrolladora de aplicaciones Full Stack Java · Trainee</p>
+        <p class="hero-pitch reveal" style="--d:4">
+          Construyo productos digitales de punta a punta: desde interfaces claras en HTML, CSS y JavaScript
+          hasta APIs y sistemas robustos en Java con Spring Boot. Me mueve entender el problema real de quien
+          va a usar el software y traducirlo en código simple, probado y bien documentado.
+        </p>
+        <div class="hero-actions reveal" style="--d:5">
+          <a href="#proyectos" class="btn btn--solid">Ver proyectos</a>
+          <a href="#contacto" class="btn btn--ghost">Hablemos</a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap reveal" style="--d:2">
+        <div class="hero-photo-blob">
+          <img src="assets/img/maria.png" alt="Retrato de María Vanesa Martínez Órdenes">
+        </div>
+        <div class="hero-tag hero-tag--java">Java</div>
+        <div class="hero-tag hero-tag--spring">Spring Boot</div>
+        <div class="hero-tag hero-tag--js">JavaScript</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider divider--wave" aria-hidden="true"></div>
+
+  <!-- SOBRE MI -->
+  <section id="sobre-mi" class="about">
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="section-eyebrow">Sobre mí</p>
+        <h2>De la idea al código, sin perder de vista a quien lo usa</h2>
+        <p>
+          Soy Trainee en desarrollo Full Stack con foco en Java. Disfruto tanto armar la lógica de negocio
+          y el acceso a datos como cuidar el detalle de la interfaz que finalmente ve la persona usuaria.
+          Vengo formándome en patrones de arquitectura (MVC, DAO), buenas prácticas de seguridad y en
+          frameworks modernos como Spring Boot, sin dejar de lado el front-end con HTML, CSS, JavaScript
+          y Bootstrap.
+        </p>
+        <p>
+          Trabajo con orden: control de versiones con Git, código documentado y decisiones de diseño que
+          puedo explicar. Este portafolio reúne tres proyectos que muestran ese recorrido, del navegador
+          al servidor.
+        </p>
+      </div>
+
+      <div class="about-stack">
+        <p class="stack-label">Con lo que trabajo</p>
+        <ul class="stack-grid">
+          <li><span class="dot dot--gold"></span>Java</li>
+          <li><span class="dot dot--teal"></span>Spring Boot</li>
+          <li><span class="dot dot--coral"></span>JavaScript</li>
+          <li><span class="dot dot--gold"></span>HTML5 &amp; CSS3</li>
+          <li><span class="dot dot--teal"></span>Bootstrap 5</li>
+          <li><span class="dot dot--coral"></span>Servlets &amp; JSP</li>
+          <li><span class="dot dot--gold"></span>Spring Security</li>
+          <li><span class="dot dot--teal"></span>Maven</li>
+          <li><span class="dot dot--coral"></span>SQL / H2</li>
+          <li><span class="dot dot--gold"></span>Git &amp; GitHub</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider divider--wave divider--flip" aria-hidden="true"></div>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="projects">
+    <p class="section-eyebrow section-eyebrow--light">Proyectos</p>
+    <h2 class="projects-title">Tres proyectos, tres capas del desarrollo</h2>
+    <p class="projects-sub">
+      De una interfaz web pensada para el usuario final, a un sistema Java con acceso a datos, hasta una
+      aplicación Spring Boot con seguridad y API REST.
+    </p>
+
+    <!-- Proyecto 1 -->
+    <article class="project-card project-card--gold">
+      <div class="project-media">
+        <svg viewBox="0 0 480 340" class="project-mock" role="img" aria-label="Vista previa de Alke Wallet">
+          <rect x="10" y="10" width="460" height="320" rx="22" class="mock-frame"/>
+          <rect x="10" y="10" width="460" height="46" rx="22" class="mock-bar"/>
+          <circle cx="34" cy="33" r="6" class="mock-dot"/>
+          <circle cx="54" cy="33" r="6" class="mock-dot"/>
+          <circle cx="74" cy="33" r="6" class="mock-dot"/>
+          <rect x="34" y="80" width="412" height="86" rx="16" class="mock-card"/>
+          <text x="52" y="112" class="mock-label">Saldo disponible</text>
+          <text x="52" y="148" class="mock-amount">$ 452.300</text>
+          <rect x="34" y="182" width="196" height="112" rx="14" class="mock-tile"/>
+          <rect x="250" y="182" width="196" height="112" rx="14" class="mock-tile"/>
+          <path d="M60 236h60M60 224h44M270 224h100M270 244h60" class="mock-line"/>
+          <g class="mock-icon-wallet" transform="translate(340,205)">
+            <rect x="0" y="8" width="46" height="34" rx="6"/>
+            <rect x="0" y="8" width="46" height="12" rx="6"/>
+            <circle cx="35" cy="26" r="4"/>
+          </g>
+        </svg>
+      </div>
+      <div class="project-body">
+        <span class="project-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h13a1 1 0 0 1 0 2H6a1 1 0 0 0-1 1v.5c0 .28.22.5.5.5H19a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Zm14 6.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/></svg>
+        </span>
+        <h3>Alke Wallet</h3>
+        <p class="project-desc">
+          Billetera digital pensada para simular operaciones bancarias cotidianas: iniciar sesión, ver saldo,
+          depositar, enviar dinero y revisar el historial de movimientos. El estado se guarda en
+          <code>localStorage</code> para que la experiencia se sienta persistente sin backend.
+        </p>
+        <ul class="project-tech">
+          <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Bootstrap 5</li><li>jQuery</li>
+        </ul>
+        <div class="project-actions">
+          <a href="proyectos/alke-wallet/index.html" class="btn btn--small btn--gold">Ver demo en vivo</a>
+          <a href="https://github.com/mamartinezordenes-cloud" class="btn btn--small btn--outline">Ver código</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Proyecto 2 -->
+    <article class="project-card project-card--teal project-card--reverse">
+      <div class="project-media">
+        <svg viewBox="0 0 480 340" class="project-mock" role="img" aria-label="Vista previa de Biblioteca Digital UNTEC">
+          <rect x="10" y="10" width="460" height="320" rx="22" class="mock-frame"/>
+          <rect x="10" y="10" width="460" height="46" rx="22" class="mock-bar"/>
+          <circle cx="34" cy="33" r="6" class="mock-dot"/>
+          <circle cx="54" cy="33" r="6" class="mock-dot"/>
+          <circle cx="74" cy="33" r="6" class="mock-dot"/>
+          <rect x="34" y="80" width="130" height="200" rx="12" class="mock-tile"/>
+          <rect x="176" y="80" width="270" height="46" rx="10" class="mock-card"/>
+          <text x="192" y="108" class="mock-label">Catálogo de libros</text>
+          <rect x="176" y="138" width="270" height="60" rx="10" class="mock-tile"/>
+          <rect x="176" y="210" width="270" height="60" rx="10" class="mock-tile"/>
+          <path d="M60 110h60M60 130h44M60 160h60M60 180h44M60 210h60M60 230h44" class="mock-line"/>
+          <g class="mock-icon-book" transform="translate(392,150)">
+            <path d="M2 2h20v34H14a4 4 0 0 0-4 4V2Z" transform="scale(0.9)"/>
+          </g>
+        </svg>
+      </div>
+      <div class="project-body">
+        <span class="project-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v17a1 1 0 0 1-1 1H6.5A2.5 2.5 0 0 1 4 18.5v-14Zm2.5-.5a.5.5 0 0 0-.5.5v13.5a.5.5 0 0 0 .5.5H18V4H6.5Z"/></svg>
+        </span>
+        <h3>Biblioteca Digital UNTEC</h3>
+        <p class="project-desc">
+          Aplicación web en Java EE para administrar el catálogo, los préstamos y los usuarios de una
+          biblioteca. Arquitectura MVC con capa DAO (patrón Singleton para la conexión), servlets para
+          login y gestión de libros/préstamos, y persistencia en base H2, desplegada sobre Apache Tomcat.
+        </p>
+        <ul class="project-tech">
+          <li>Java</li><li>Servlets</li><li>JSP / JSTL</li><li>Maven</li><li>H2</li>
+        </ul>
+        <div class="project-actions">
+          <a href="https://github.com/mamartinezordenes-cloud" class="btn btn--small btn--teal">Ver código</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Proyecto 3 -->
+    <article class="project-card project-card--coral">
+      <div class="project-media">
+        <svg viewBox="0 0 480 340" class="project-mock" role="img" aria-label="Vista previa de SpringEduManager">
+          <rect x="10" y="10" width="460" height="320" rx="22" class="mock-frame"/>
+          <rect x="10" y="10" width="460" height="46" rx="22" class="mock-bar"/>
+          <circle cx="34" cy="33" r="6" class="mock-dot"/>
+          <circle cx="54" cy="33" r="6" class="mock-dot"/>
+          <circle cx="74" cy="33" r="6" class="mock-dot"/>
+          <rect x="34" y="80" width="412" height="40" rx="10" class="mock-card"/>
+          <text x="52" y="106" class="mock-label">Gestión de alumnos</text>
+          <rect x="34" y="134" width="412" height="38" rx="8" class="mock-tile"/>
+          <rect x="34" y="180" width="412" height="38" rx="8" class="mock-tile"/>
+          <rect x="34" y="226" width="412" height="38" rx="8" class="mock-tile"/>
+          <path d="M52 155h100M52 201h140M52 247h90" class="mock-line"/>
+          <rect x="380" y="140" width="52" height="20" rx="10" class="mock-badge"/>
+          <rect x="380" y="186" width="52" height="20" rx="10" class="mock-badge"/>
+          <rect x="380" y="232" width="52" height="20" rx="10" class="mock-badge"/>
+        </svg>
+      </div>
+      <div class="project-body">
+        <span class="project-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3 1 8l11 5 9-4.09V17h2V8L12 3Zm0 13.5-7-3.18V17c0 2.21 3.13 4 7 4s7-1.79 7-4v-3.68l-7 3.18Z"/></svg>
+        </span>
+        <h3>SpringEduManager</h3>
+        <p class="project-desc">
+          Sistema de gestión de alumnos construido con Spring Boot: CRUD completo con validaciones de
+          formulario, vistas en Thymeleaf y una API REST paralela para consumo externo. Incluye Spring
+          Security con usuarios en memoria, contraseñas cifradas con BCrypt y roles <strong>ADMIN</strong>
+          / <strong>USER</strong> que restringen quién puede crear, editar o eliminar registros.
+        </p>
+        <ul class="project-tech">
+          <li>Java</li><li>Spring Boot</li><li>Spring Security</li><li>Spring Data JPA</li><li>Thymeleaf</li>
+        </ul>
+        <div class="project-actions">
+          <a href="https://github.com/mamartinezordenes-cloud" class="btn btn--small btn--coral">Ver código</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <div class="divider divider--wave" aria-hidden="true"></div>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contact">
+    <div class="hero-blob hero-blob--c" aria-hidden="true"></div>
+    <p class="section-eyebrow section-eyebrow--light">Contacto</p>
+    <h2 class="contact-title">¿Charlamos sobre una oportunidad o un proyecto?</h2>
+    <p class="contact-pitch">Escribime, respondo siempre.</p>
+
+    <div class="contact-links">
+      <a href="mailto:ma.martinezordenes@duocuc.cl" class="contact-pill">
+        <svg viewBox="0 0 24 24"><path d="M3 6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6Zm2 0 7 5 7-5H5Zm14 2.24-6.4 4.57a1 1 0 0 1-1.2 0L5 8.24V18h14V8.24Z"/></svg>
+        ma.martinezordenes@duocuc.cl
+      </a>
+      <a href="https://www.linkedin.com/in/maria-vanesa-martinez-ordenes/" target="_blank" rel="noopener" class="contact-pill">
+        <svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.76V21h-4v-5.9c0-1.4-.03-3.2-2-3.2-2 0-2.3 1.5-2.3 3.1V21h-4V9Z"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/mamartinezordenes-cloud" target="_blank" rel="noopener" class="contact-pill">
+        <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.2-3.37-1.2-.46-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.83-2.34 4.68-4.57 4.92.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Diseñado y construido por María Vanesa Martínez Órdenes · <span id="year"></span></p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
